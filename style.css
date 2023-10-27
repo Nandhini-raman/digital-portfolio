@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #f3e3c3;
+}
+
+header {
+    background-color: #704214;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 40px;
+    text-indent: 2em;
+    margin-bottom: 1em;
+}
+
+.navbar a {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+	color: #D34DAD;
+}
+
+section {
+    align-items: center;
+    max-width: 60%;
+    max-height: 300px;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h3 {
+    font-size: 60px;
+    text-decoration-color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #800000;
+    margin: 10px;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	max-width: 1000px;
+	height: 500px;
+	position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translateY(-50%);
+	overflow: hidden;
+	background: #566d7e;
+	border-radius: 100%;
+	border: 25px solid #fff;
+
+}
+
+
+img {
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+@keyframes animation {
+	0%,95%,100% {
+		background-position: -410px 0;
+	}
+	65%,85% {
+		background-position: 0 0;
+	}
+}
+
+.home-content p {
+	font-size: 50px;
+	margin-top: 20px;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 2.5em;
+}
+
+
+
+.home-sci{
+	margin: 25px 0 25px;
+}
+
+.home-sci a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	margin: 50px;
+	background: transparent;
+	border: 5px solid #fff;
+	border-radius: 200%;
+	font-size: 50px;
+	color: #fff;
+	text-decoration: none;
+	transition: .5s;
+}
+
+.home-sci a:hover {
+	background: hsl(120, 60%, 56%);
+	color: #513b1c;
+	border-color: hsl(120, 60%, 56%);
+	box-shadow: 0 0 10px hsl(120, 60%, 56%);
+}
+
+.btn {
+	padding: 100px 100px;
+	background: #00abf0;
+	border-radius: 40px;
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	box-shadow: 0 0 18px #0076F0;
+	transition: .5s;
+}
+
+.btn:hover {
+	box-shadow: none;
+}
+
+h2 {
+    font-size: 75px;
+    text-decoration-color: #fff;
+    margin-bottom: 30px;
+    text-align: center;	
+}
